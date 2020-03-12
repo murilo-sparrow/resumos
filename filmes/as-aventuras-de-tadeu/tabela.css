@@ -1,0 +1,11 @@
+table {
+	border-style: solid;
+}
+
+tbody tr:nth-child(2n + 1) {
+    background-color:darkgreen;    
+}
+
+tbody tr:nth-child(2n), thead tr {
+    background-color:chocolate;
+}
