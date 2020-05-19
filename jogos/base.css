@@ -1,0 +1,11 @@
+hr {
+	height: 5px;
+}
+
+hr:nth-of-type(2n) {
+	background-color: yellow;
+}
+
+hr:nth-of-type(2n+1) {
+	background-color: red;
+}
